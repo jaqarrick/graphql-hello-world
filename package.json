@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "format": "npx prettier --write src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.10.0",
-    "graphql": "^16.5.0"
+    "graphql": "^16.5.0",
+    "graphql-ws": "^5.9.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
   }
 }
